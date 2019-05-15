@@ -1,0 +1,23 @@
+{
+  "name": "any-door",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "anywhere": "./bin/anywhere.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maplemoon",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "mime": "^2.4.2",
+    "open": "^6.3.0",
+    "yargs": "^13.2.4"
+  }
+}

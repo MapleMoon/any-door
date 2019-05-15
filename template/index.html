@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <head>
+        <title>{{title}}</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        <ul>
+            {{#each files}}
+                <li><a href="{{../dir}}/{{this}}">{{this}}</a></li>
+            {{/each}}
+        </ul>
+    </body>
+</html>
